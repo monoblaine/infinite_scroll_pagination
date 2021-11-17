@@ -24,7 +24,7 @@ class PagedSliverList<PageKeyType, ItemType> extends StatelessWidget {
     this.addSemanticIndexes = true,
     this.itemExtent,
     this.semanticIndexCallback,
-    this.shrinkWrapFirstPageIndicators = false,
+    this.shrinkWrapFirstPageIndicators = true,
     Key? key,
   })  : _separatorBuilder = null,
         super(key: key);

@@ -52,7 +52,7 @@ class PagedSliverBuilder<PageKeyType, ItemType> extends StatefulWidget {
     required this.loadingListingBuilder,
     required this.errorListingBuilder,
     required this.completedListingBuilder,
-    this.shrinkWrapFirstPageIndicators = false,
+    this.shrinkWrapFirstPageIndicators = true,
     Key? key,
   }) : super(key: key);
 
