@@ -49,7 +49,7 @@ class FirstPageExceptionIndicator extends StatelessWidget {
                   onPressed: onTryAgain,
                   icon: const Icon(Icons.refresh),
                   label: const Text(
-                    'Try Again',
+                    'Yeniden dene',
                     style: TextStyle(
                       fontSize: 16,
                     ),

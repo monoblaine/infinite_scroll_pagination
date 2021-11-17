@@ -11,9 +11,9 @@ class FirstPageErrorIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => FirstPageExceptionIndicator(
-        title: 'Something went wrong',
-        message: 'The application has encountered an unknown error.\n'
-            'Please try again later.',
+        title: 'İsteğiniz yerine getirilemedi',
+        message: 'Bilinmeyen bir hata oluştu.\n'
+            'Lütfen daha sonra yeniden deneyin.',
         onTryAgain: onTryAgain,
       );
 }
