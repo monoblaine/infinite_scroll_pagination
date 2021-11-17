@@ -51,7 +51,7 @@ class FirstPageExceptionIndicator extends StatelessWidget {
                     color: Colors.white,
                   ),
                   label: const Text(
-                    'Try Again',
+                    'Yeniden dene',
                     style: TextStyle(
                       fontSize: 16,
                       color: Colors.white,
