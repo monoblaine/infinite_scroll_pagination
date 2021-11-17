@@ -24,7 +24,7 @@ class PagedSliverList<PageKeyType, ItemType> extends StatelessWidget {
     this.itemExtent,
     this.prototypeItem,
     this.semanticIndexCallback,
-    this.shrinkWrapFirstPageIndicators = false,
+    this.shrinkWrapFirstPageIndicators = true,
     Key? key,
   })  : assert(
           itemExtent == null || prototypeItem == null,

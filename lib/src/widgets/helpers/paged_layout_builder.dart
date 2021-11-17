@@ -53,7 +53,7 @@ class PagedLayoutBuilder<PageKeyType, ItemType> extends StatefulWidget {
     required this.errorListingBuilder,
     required this.completedListingBuilder,
     required this.layoutProtocol,
-    this.shrinkWrapFirstPageIndicators = false,
+    this.shrinkWrapFirstPageIndicators = true,
     Key? key,
   }) : super(key: key);
 
