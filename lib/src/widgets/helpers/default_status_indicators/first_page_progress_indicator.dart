@@ -4,10 +4,5 @@ class FirstPageProgressIndicator extends StatelessWidget {
   const FirstPageProgressIndicator({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) => const Padding(
-        padding: EdgeInsets.all(32),
-        child: Center(
-          child: LinearProgressIndicator(),
-        ),
-      );
+  Widget build(BuildContext context) => const LinearProgressIndicator();
 }
